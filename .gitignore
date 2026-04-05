@@ -1,0 +1,15 @@
+# Ignore generated files
+*.pdf
+*.tmp
+*.log
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore model weights (optional if large)
+*.h5
+*.keras
+
+# Ignore temp files
+temp/
