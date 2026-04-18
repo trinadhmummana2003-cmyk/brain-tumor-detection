@@ -112,7 +112,7 @@ def generate_pdf(data, file_path):
 
     elements = []
 
-    elements.append(Paragraph("DeepNeuroVision", title_style))
+    elements.append(Paragraph("Brain_Tumor", title_style))
     elements.append(Paragraph("Brain Tumor Detection Report", sub_title_style))
 
     elements.append(Paragraph("Patient Information", section_style))
@@ -220,7 +220,7 @@ if "pdf_ready" not in st.session_state:
 # ============================================================
 # Assets
 # ============================================================
-VIDEO_PATH = "assets/brain_bg.mp4"
+VIDEO_PATH = "brain_bg.mp4"
 video_base64 = get_base64_video(VIDEO_PATH)
 
 

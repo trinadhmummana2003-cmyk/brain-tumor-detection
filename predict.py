@@ -2,9 +2,9 @@ import numpy as np
 import cv2
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
+from tensorflow.keras.models import load_model
 
-# Load model once
-model = load_model("brain_tumor_type_model.keras")
+model = load_model("brain_tumor_type_model.h5", compile=False)
 
 classes = ['glioma', 'meningioma', 'notumor', 'pituitary']
 
